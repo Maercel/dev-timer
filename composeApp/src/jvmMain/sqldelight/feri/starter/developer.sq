@@ -1,0 +1,19 @@
+import kotlin.Int;
+
+CREATE TABLE developer (
+    id INTEGER AS Int PRIMARY KEY NOT NULL,
+    name TEXT NOT NULL
+);
+
+--- Can insert object like that
+addDeveloper:
+INSERT INTO developer VALUES ?;
+
+removeDeveloper:
+DELETE FROM developer WHERE id=:id;
+
+getAllDevelopers:
+SELECT * FROM developer;
+
+getDeveloperById:
+SELECT * FROM developer WHERE id = :id;

@@ -1,0 +1,56 @@
+import java.time.LocalDate;
+import kotlin.Int;
+
+CREATE TABLE session(
+    id INTEGER AS Int PRIMARY KEY NOT NULL,
+    developer_id INTEGER AS Int NOT NULL,
+    project_id INTEGER AS Int NOT NULL,
+    local_date TEXT AS LocalDate NOT NULL,
+    lines_added INTEGER NOT NULL,
+    FOREIGN KEY (developer_id) REFERENCES developer(id) ON DELETE CASCADE ON UPDATE CASCADE,
+    FOREIGN KEY (project_id) REFERENCES project(id) ON DELETE CASCADE ON UPDATE CASCADE
+);
+
+addSession:
+INSERT INTO session (developer_id, project_id, local_date, lines_added)
+VALUES (:developer_id, :project_id, :local_date, :lines_added);
+
+removeSession:
+DELETE FROM session WHERE id = :id;
+
+getAllSessions:
+SELECT * FROM session;
+
+getSessionById:
+SELECT * FROM session WHERE id = :id;
+
+getSessionsByDeveloperId:
+SELECT * FROM session WHERE developer_id = :developerId;
+
+getSessionsByProjectId:
+SELECT * FROM session WHERE project_id = :projectId;
+
+getLinesAddedByProjectId:
+SELECT lines_added FROM session WHERE project_id = :projectId;
+
+updateSession:
+UPDATE session
+SET developer_id = :developerId, project_id = :projectId, local_date = :localDate, lines_added = :linesAdded
+WHERE id = :id;
+
+getTotalLinesByDeveloper:
+SELECT SUM(lines_added) FROM session WHERE developer_id = :developerId;
+
+getAllSessionsWithDetails:
+SELECT
+    session.id AS sessionId,
+    session.local_date AS sessionDate,
+    session.lines_added AS linesAdded,
+    developer.id AS developerId,
+    developer.name AS developerName,
+    project.id AS projectId,
+    project.name AS projectName,
+    project.directory_path AS projectPath
+FROM session
+INNER JOIN developer ON session.developer_id = developer.id
+INNER JOIN project ON session.project_id = project.id;

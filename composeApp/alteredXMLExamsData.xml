@@ -1,0 +1,117 @@
+<ArrayList>
+    <Exam id="1" subject="Architectural Technology" availableFrom="2026-05-02T12:00:00" availableUntil="2026-05-14T18:00:00" />
+    <Exam id="3" subject="Law" availableFrom="2026-01-07T12:00:00" availableUntil="2026-01-19T16:00:00" />
+    <Exam id="4" subject="Applied Science (Psychology)" availableFrom="2026-09-08T12:00:00" availableUntil="2026-09-22T15:00:00" />
+    <Exam id="5" subject="Biomedical Science" availableFrom="2026-12-08T08:00:00" availableUntil="2026-12-16T13:00:00" />
+    <Exam id="6" subject="Psychology" availableFrom="2026-08-08T07:00:00" availableUntil="2026-08-20T18:00:00" />
+    <Exam id="7" subject="Design" availableFrom="2026-02-17T07:00:00" availableUntil="2026-03-02T17:00:00" />
+    <Exam id="8" subject="Teaching" availableFrom="2026-08-05T09:00:00" availableUntil="2026-08-17T13:00:00" />
+    <Exam id="9" subject="Design" availableFrom="2026-12-12T10:00:00" availableUntil="2026-12-20T16:00:00" />
+    <Exam id="10" subject="Law" availableFrom="2026-05-19T07:00:00" availableUntil="2026-05-22T18:00:00" />
+    <Exam id="11" subject="Creative Arts" availableFrom="2026-06-07T11:00:00" availableUntil="2026-06-12T13:00:00" />
+    <Exam id="12" subject="Forensic Science" availableFrom="2026-02-21T12:00:00" availableUntil="2026-03-01T15:00:00" />
+    <Exam id="13" subject="Psychology" availableFrom="2026-09-22T12:00:00" availableUntil="2026-09-26T16:00:00" />
+    <Exam id="14" subject="Creative Arts" availableFrom="2026-10-22T09:00:00" availableUntil="2026-11-03T16:00:00" />
+    <Exam id="15" subject="Arts" availableFrom="2026-09-26T07:00:00" availableUntil="2026-10-10T15:00:00" />
+    <Exam id="16" subject="Criminology" availableFrom="2026-07-30T10:00:00" availableUntil="2026-08-08T17:00:00" />
+    <Exam id="17" subject="Information Systems" availableFrom="2026-04-20T09:00:00" availableUntil="2026-05-03T15:00:00" />
+    <Exam id="18" subject="Creative Arts" availableFrom="2026-06-18T07:00:00" availableUntil="2026-07-02T13:00:00" />
+    <Exam id="19" subject="Creative Arts" availableFrom="2026-11-26T08:00:00" availableUntil="2026-12-04T17:00:00" />
+    <Exam id="20" subject="Commerce" availableFrom="2026-01-13T12:00:00" availableUntil="2026-01-15T16:00:00" />
+    <Exam id="21" subject="Psychology" availableFrom="2026-05-14T07:00:00" availableUntil="2026-05-19T15:00:00" />
+    <Exam id="22" subject="Health Science" availableFrom="2026-09-27T10:00:00" availableUntil="2026-10-05T17:00:00" />
+    <Exam id="23" subject="Business" availableFrom="2026-08-01T08:00:00" availableUntil="2026-08-08T14:00:00" />
+    <Exam id="24" subject="Teaching" availableFrom="2026-08-29T12:00:00" availableUntil="2026-09-05T18:00:00" />
+    <Exam id="25" subject="Education" availableFrom="2026-07-22T12:00:00" availableUntil="2026-07-23T14:00:00" />
+    <Exam id="26" subject="Biomedical Science" availableFrom="2026-01-28T12:00:00" availableUntil="2026-02-04T17:00:00" />
+    <Exam id="27" subject="Communications" availableFrom="2026-12-01T12:00:00" availableUntil="2026-12-14T13:00:00" />
+    <Exam id="28" subject="Engineering" availableFrom="2026-05-08T08:00:00" availableUntil="2026-05-21T14:00:00" />
+    <Exam id="29" subject="Nursing" availableFrom="2026-09-22T12:00:00" availableUntil="2026-09-30T13:00:00" />
+    <Exam id="30" subject="Computer Science" availableFrom="2026-05-04T10:00:00" availableUntil="2026-05-09T14:00:00" />
+    <Exam id="31" subject="Communications" availableFrom="2026-05-02T12:00:00" availableUntil="2026-05-11T16:00:00" />
+    <Exam id="32" subject="Forensic Science" availableFrom="2026-11-25T09:00:00" availableUntil="2026-12-03T17:00:00" />
+    <Exam id="33" subject="Design" availableFrom="2026-12-17T07:00:00" availableUntil="2026-12-31T18:00:00" />
+    <Exam id="34" subject="Communications" availableFrom="2026-09-26T08:00:00" availableUntil="2026-10-04T17:00:00" />
+    <Exam id="35" subject="Communications" availableFrom="2026-02-02T09:00:00" availableUntil="2026-02-03T14:00:00" />
+    <Exam id="36" subject="Teaching" availableFrom="2026-02-27T11:00:00" availableUntil="2026-03-08T18:00:00" />
+    <Exam id="37" subject="Creative Arts" availableFrom="2026-07-05T07:00:00" availableUntil="2026-07-16T15:00:00" />
+    <Exam id="38" subject="Business" availableFrom="2026-08-13T10:00:00" availableUntil="2026-08-20T16:00:00" />
+    <Exam id="39" subject="Law" availableFrom="2026-08-01T11:00:00" availableUntil="2026-08-02T13:00:00" />
+    <Exam id="40" subject="Business" availableFrom="2026-04-21T10:00:00" availableUntil="2026-04-23T14:00:00" />
+    <Exam id="41" subject="Law" availableFrom="2026-11-09T08:00:00" availableUntil="2026-11-18T17:00:00" />
+    <Exam id="42" subject="Design" availableFrom="2026-01-17T12:00:00" availableUntil="2026-01-19T15:00:00" />
+    <Exam id="43" subject="Business" availableFrom="2026-02-23T10:00:00" availableUntil="2026-03-05T16:00:00" />
+    <Exam id="44" subject="Design" availableFrom="2026-03-29T07:00:00" availableUntil="2026-03-31T18:00:00" />
+    <Exam id="45" subject="Teaching" availableFrom="2026-05-09T09:00:00" availableUntil="2026-05-21T13:00:00" />
+    <Exam id="46" subject="Health Science" availableFrom="2026-02-28T10:00:00" availableUntil="2026-03-13T18:00:00" />
+    <Exam id="47" subject="Law" availableFrom="2026-08-07T12:00:00" availableUntil="2026-08-18T14:00:00" />
+    <Exam id="48" subject="Information Systems" availableFrom="2026-03-15T10:00:00" availableUntil="2026-03-28T16:00:00">
+        <appliedStudents>Bert Morar</appliedStudents>
+        <appliedStudents>Meredith Treutel</appliedStudents>
+        <appliedStudents>Dusty Gleichner</appliedStudents>
+    </Exam>
+    <Exam id="49" subject="Biomedical Science" availableFrom="2026-06-17T07:00:00" availableUntil="2026-06-30T16:00:00" />
+    <Exam id="50" subject="Creative Arts" availableFrom="2026-08-24T11:00:00" availableUntil="2026-08-27T18:00:00" />
+    <Exam id="51" subject="Nursing" availableFrom="2026-12-17T07:00:00" availableUntil="2026-12-23T15:00:00" />
+    <Exam id="52" subject="Commerce" availableFrom="2026-01-15T10:00:00" availableUntil="2026-01-29T14:00:00" />
+    <Exam id="53" subject="Engineering" availableFrom="2026-03-16T11:00:00" availableUntil="2026-03-29T18:00:00">
+        <appliedStudents>Carmella Willms</appliedStudents>
+        <appliedStudents>Rex Wolf</appliedStudents>
+        <appliedStudents>Tod Oberbrunner</appliedStudents>
+    </Exam>
+    <Exam id="54" subject="Commerce" availableFrom="2026-07-30T09:00:00" availableUntil="2026-08-10T14:00:00" />
+    <Exam id="55" subject="Design" availableFrom="2026-09-21T09:00:00" availableUntil="2026-09-23T14:00:00" />
+    <Exam id="56" subject="Medicine" availableFrom="2026-10-05T08:00:00" availableUntil="2026-10-16T14:00:00" />
+    <Exam id="57" subject="Engineering" availableFrom="2026-04-29T08:00:00" availableUntil="2026-05-02T13:00:00" />
+    <Exam id="58" subject="Business" availableFrom="2026-03-23T11:00:00" availableUntil="2026-03-30T13:00:00">
+        <appliedStudents>Stacy Smitham</appliedStudents>
+        <appliedStudents>Nancie Veum</appliedStudents>
+        <appliedStudents>Chad Hammes</appliedStudents>
+    </Exam>
+    <Exam id="59" subject="Creative Arts" availableFrom="2026-07-11T08:00:00" availableUntil="2026-07-20T18:00:00" />
+    <Exam id="60" subject="Computer Science" availableFrom="2026-02-26T11:00:00" availableUntil="2026-03-09T17:00:00" />
+    <Exam id="61" subject="Health Science" availableFrom="2026-04-05T09:00:00" availableUntil="2026-04-11T17:00:00" />
+    <Exam id="62" subject="Forensic Science" availableFrom="2026-02-23T11:00:00" availableUntil="2026-03-05T17:00:00" />
+    <Exam id="63" subject="Biological Science" availableFrom="2026-11-15T11:00:00" availableUntil="2026-11-24T17:00:00" />
+    <Exam id="64" subject="Commerce" availableFrom="2026-07-12T09:00:00" availableUntil="2026-07-22T15:00:00" />
+    <Exam id="65" subject="Arts" availableFrom="2026-04-27T12:00:00" availableUntil="2026-04-30T16:00:00" />
+    <Exam id="66" subject="Education" availableFrom="2026-09-22T07:00:00" availableUntil="2026-09-26T17:00:00" />
+    <Exam id="67" subject="Law" availableFrom="2026-11-28T07:00:00" availableUntil="2026-12-07T14:00:00" />
+    <Exam id="68" subject="Business" availableFrom="2026-01-04T11:00:00" availableUntil="2026-01-07T13:00:00" />
+    <Exam id="69" subject="Communications" availableFrom="2026-05-15T09:00:00" availableUntil="2026-05-27T13:00:00" />
+    <Exam id="70" subject="Business" availableFrom="2026-07-17T11:00:00" availableUntil="2026-07-22T15:00:00" />
+    <Exam id="71" subject="Education" availableFrom="2026-02-23T10:00:00" availableUntil="2026-03-07T15:00:00" />
+    <Exam id="72" subject="Engineering" availableFrom="2026-02-05T12:00:00" availableUntil="2026-02-10T18:00:00" />
+    <Exam id="73" subject="Law" availableFrom="2026-04-11T08:00:00" availableUntil="2026-04-18T18:00:00" />
+    <Exam id="74" subject="Health Science" availableFrom="2026-10-28T12:00:00" availableUntil="2026-11-03T15:00:00" />
+    <Exam id="75" subject="Computer Science" availableFrom="2026-02-28T12:00:00" availableUntil="2026-03-05T17:00:00" />
+    <Exam id="76" subject="Education" availableFrom="2026-07-02T07:00:00" availableUntil="2026-07-09T17:00:00" />
+    <Exam id="77" subject="Health Science" availableFrom="2026-08-29T07:00:00" availableUntil="2026-09-08T13:00:00" />
+    <Exam id="78" subject="Applied Science (Psychology)" availableFrom="2026-08-01T08:00:00" availableUntil="2026-08-14T17:00:00" />
+    <Exam id="79" subject="Medicine" availableFrom="2026-08-02T07:00:00" availableUntil="2026-08-07T16:00:00" />
+    <Exam id="80" subject="Medicine" availableFrom="2026-02-16T07:00:00" availableUntil="2026-02-20T15:00:00" />
+    <Exam id="81" subject="Criminology" availableFrom="2026-06-19T12:00:00" availableUntil="2026-06-28T18:00:00" />
+    <Exam id="82" subject="Criminology" availableFrom="2026-03-15T10:00:00" availableUntil="2026-03-24T13:00:00" />
+    <Exam id="83" subject="Education" availableFrom="2026-10-05T12:00:00" availableUntil="2026-10-18T16:00:00" />
+    <Exam id="84" subject="Nursing" availableFrom="2026-05-25T12:00:00" availableUntil="2026-06-01T15:00:00" />
+    <Exam id="85" subject="Medicine" availableFrom="2026-10-18T07:00:00" availableUntil="2026-10-21T13:00:00" />
+    <Exam id="86" subject="Applied Science (Psychology)" availableFrom="2026-09-11T12:00:00" availableUntil="2026-09-22T14:00:00" />
+    <Exam id="87" subject="Biomedical Science" availableFrom="2026-09-10T07:00:00" availableUntil="2026-09-24T13:00:00" />
+    <Exam id="88" subject="Information Systems" availableFrom="2026-02-25T08:00:00" availableUntil="2026-03-09T15:00:00" />
+    <Exam id="89" subject="Engineering" availableFrom="2026-09-16T10:00:00" availableUntil="2026-09-21T15:00:00" />
+    <Exam id="90" subject="Information Systems" availableFrom="2026-05-05T07:00:00" availableUntil="2026-05-11T15:00:00" />
+    <Exam id="91" subject="Business" availableFrom="2026-01-09T09:00:00" availableUntil="2026-01-12T15:00:00" />
+    <Exam id="92" subject="Law" availableFrom="2026-08-02T12:00:00" availableUntil="2026-08-07T16:00:00" />
+    <Exam id="93" subject="Psychology" availableFrom="2026-11-03T11:00:00" availableUntil="2026-11-07T17:00:00" />
+    <Exam id="94" subject="Design" availableFrom="2026-11-20T09:00:00" availableUntil="2026-11-25T17:00:00" />
+    <Exam id="95" subject="Business" availableFrom="2026-11-21T07:00:00" availableUntil="2026-11-27T18:00:00" />
+    <Exam id="96" subject="Criminology" availableFrom="2026-03-18T09:00:00" availableUntil="2026-03-27T14:00:00">
+        <appliedStudents>Domingo Zboncak</appliedStudents>
+        <appliedStudents>Issac Blanda</appliedStudents>
+        <appliedStudents>Conrad Crooks</appliedStudents>
+    </Exam>
+    <Exam id="97" subject="Business" availableFrom="2026-06-02T10:00:00" availableUntil="2026-06-05T13:00:00" />
+    <Exam id="98" subject="Education" availableFrom="2026-10-30T10:00:00" availableUntil="2026-11-05T14:00:00" />
+    <Exam id="99" subject="Engineering" availableFrom="2026-02-06T07:00:00" availableUntil="2026-02-07T15:00:00" />
+    <Exam id="100" subject="Engineering" availableFrom="2026-07-03T11:00:00" availableUntil="2026-07-08T18:00:00" />
+</ArrayList>

@@ -1,0 +1,25 @@
+import kotlin.Int;
+
+CREATE TABLE project (
+    id INTEGER AS Int PRIMARY KEY NOT NULL,
+    name TEXT NOT NULL,
+    directory_path TEXT NOT NULL
+);
+
+addProject:
+INSERT INTO project (name, directory_path) VALUES (:name, :directory_path);
+
+removeProject:
+DELETE FROM project WHERE id = :id;
+
+getAllProject:
+SELECT * FROM project;
+
+getProjectById:
+SELECT * FROM project WHERE id = :id;
+
+updateProject:
+UPDATE project SET name = :name, directory_path = :directoryPath WHERE id = :id;
+
+getProjectByPath:
+SELECT * FROM project WHERE directory_path = :directoryPath LIMIT 1;
