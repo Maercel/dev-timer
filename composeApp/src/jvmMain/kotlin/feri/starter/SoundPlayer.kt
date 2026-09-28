@@ -11,7 +11,7 @@ object SoundPlayer {
 
     suspend fun playDone() {
         runCatching {
-            val bytes = Res.readBytes("files/session_complete.wav")
+            val bytes = Res.readBytes("files/session_complete_6s.wav")
             withContext(Dispatchers.IO) {
                 val stream = AudioSystem.getAudioInputStream(ByteArrayInputStream(bytes))
                 val clip = AudioSystem.getClip()
