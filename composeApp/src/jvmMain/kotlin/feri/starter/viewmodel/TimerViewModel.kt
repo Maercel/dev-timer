@@ -188,7 +188,7 @@ class TimerViewModel : ViewModel() {
     }
 
     private suspend fun onTimerFinished() {
-        viewModelScope.launch { SoundPlayer.playDone() }
+        viewModelScope.launch { SoundPlayer.playSessionComplete() }
         val dir = _uiState.value.selectedDirectory
         if (dir != null) {
             saveSession(dir, initialLineCount)

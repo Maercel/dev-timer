@@ -9,7 +9,7 @@ import javax.sound.sampled.LineEvent
 
 object SoundPlayer {
 
-    suspend fun playDone() {
+    suspend fun playSessionComplete() {
         runCatching {
             val bytes = Res.readBytes("files/session_complete_6s.wav")
             withContext(Dispatchers.IO) {
