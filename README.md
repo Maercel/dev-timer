@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/screenshots/dev-timer-logo.svg" alt="DevTimer" width="25%">
+  <img src="docs/screenshots/dev-timer-logo.svg" alt="DevTimer" width="50%">
 </p>
 
 <p align="center">
