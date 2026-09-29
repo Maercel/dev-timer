@@ -10,12 +10,11 @@ import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import androidx.compose.ui.unit.dp
-import feri.starter.ui.Timer.ControlPanel
-import feri.starter.ui.Timer.ProjectDirectory
+import feri.starter.ui.timer.components.ControlPanel
+import feri.starter.ui.timer.components.ProjectDirectory
 import feri.starter.model.TimerState
-import feri.starter.view.TimerView
-import feri.starter.viewmodel.TimerViewModel
+import feri.starter.ui.timer.TimerView
+import feri.starter.ui.timer.TimerViewModel
 import feri.starter.ui.statistics.StatisticsUI
 import feri.starter.ui.theme.AppColors
 import feri.starter.ui.theme.AppSpacing

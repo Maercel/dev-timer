@@ -1,4 +1,4 @@
-package feri.starter
+package feri.starter.domain
 
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext

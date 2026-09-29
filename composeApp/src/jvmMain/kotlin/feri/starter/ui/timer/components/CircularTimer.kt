@@ -1,4 +1,4 @@
-package feri.starter.ui.Timer
+package feri.starter.ui.timer.components
 
 import androidx.compose.animation.core.animateFloatAsState
 import androidx.compose.animation.core.tween
@@ -45,7 +45,7 @@ import androidx.compose.ui.unit.sp
 import feri.starter.ui.theme.AppColors
 import feri.starter.ui.theme.AppSpacing
 import feri.starter.ui.theme.AppShapes
-import feri.starter.viewmodel.MAX_TIME_SECONDS
+import feri.starter.ui.timer.MAX_TIME_SECONDS
 import java.awt.Cursor
 import java.time.LocalTime
 import java.time.format.DateTimeFormatter

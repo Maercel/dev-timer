@@ -1,4 +1,4 @@
-package feri.starter.view
+package feri.starter.ui.timer
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
@@ -13,9 +13,8 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import feri.starter.model.TimerState
 import feri.starter.ui.TaskManagement
-import feri.starter.ui.Timer.CircularTimer
+import feri.starter.ui.timer.components.CircularTimer
 import feri.starter.ui.theme.AppColors
-import feri.starter.viewmodel.TimerViewModel
 
 @Composable
 fun TimerView(

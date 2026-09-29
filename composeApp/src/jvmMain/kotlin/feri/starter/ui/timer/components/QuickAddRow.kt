@@ -1,4 +1,4 @@
-package feri.starter.ui.Timer
+package feri.starter.ui.timer.components
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable

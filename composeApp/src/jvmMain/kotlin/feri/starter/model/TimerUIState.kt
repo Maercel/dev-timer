@@ -1,6 +1,6 @@
 package feri.starter.model
 
-import feri.starter.viewmodel.INITIAL_TIME_SECONDS
+import feri.starter.ui.timer.INITIAL_TIME_SECONDS
 
 enum class TimerState {
     IDLE, RUNNING, PAUSED

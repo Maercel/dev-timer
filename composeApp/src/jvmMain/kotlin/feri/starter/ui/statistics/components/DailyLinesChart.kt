@@ -1,4 +1,4 @@
-package feri.starter.ui.statistics
+package feri.starter.ui.statistics.components
 
 import androidx.compose.animation.core.Animatable
 import androidx.compose.animation.core.FastOutSlowInEasing

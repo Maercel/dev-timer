@@ -1,9 +1,13 @@
-package feri.starter
+package feri.starter.data
 
 import app.cash.sqldelight.ColumnAdapter
 import app.cash.sqldelight.adapter.primitive.IntColumnAdapter
 import app.cash.sqldelight.db.SqlDriver
 import app.cash.sqldelight.driver.jdbc.sqlite.JdbcSqliteDriver
+import feri.starter.Database
+import feri.starter.Developer
+import feri.starter.Project
+import feri.starter.Session
 import java.io.File
 import java.time.LocalDate
 import java.util.Properties
@@ -29,12 +33,12 @@ class DatabaseFactory {
         val driver = JdbcSqliteDriver(
             url = "jdbc:sqlite:${dbFile.absolutePath}",
             properties = Properties().apply { put("foreign_keys", "true") },
-            schema = Database.Schema
+            schema = Database.Companion.Schema
         )
         return driver
     }
 
-    val database = Database(
+    val database = Database.Companion(
         driver = createDriver(),
         developerAdapter = Developer.Adapter(
             idAdapter = IntColumnAdapter

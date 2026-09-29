@@ -33,6 +33,9 @@ import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import feri.starter.model.SessionState
+import feri.starter.ui.statistics.components.BarSegment
+import feri.starter.ui.statistics.components.DailyLinesChart
+import feri.starter.ui.statistics.components.DayBar
 import feri.starter.ui.theme.AppColors
 import feri.starter.ui.theme.AppSpacing
 import feri.starter.ui.theme.AppShapes
@@ -98,7 +101,10 @@ fun StatisticsUI(sessionStates: List<SessionState>, modifier: Modifier = Modifie
                 .filter { it.date.dayOfMonth == day }
                 .groupBy { it.projectState.name }
                 .map { (name, sessions) ->
-                    BarSegment(projectColorMap[name] ?: AppColors.TextMuted, sessions.sumOf { it.linesAdded }.toDouble())
+                    BarSegment(
+                        projectColorMap[name] ?: AppColors.TextMuted,
+                        sessions.sumOf { it.linesAdded }.toDouble()
+                    )
                 }
             DayBar(day, segments)
         }

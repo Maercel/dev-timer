@@ -1,12 +1,11 @@
-package feri.starter.viewmodel
+package feri.starter.ui.timer
 
 import androidx.compose.runtime.mutableStateListOf
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import androidx.lifecycle.viewmodel.compose.viewModel
-import feri.starter.CodeLinesCounter
-import feri.starter.DatabaseFactory
-import feri.starter.SoundPlayer
+import feri.starter.domain.CodeLinesCounter
+import feri.starter.data.DatabaseFactory
+import feri.starter.domain.SoundPlayer
 import feri.starter.Developer
 import feri.starter.model.DeveloperState
 import feri.starter.model.ProjectState
@@ -19,7 +18,6 @@ import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.update
 import java.io.File
 import java.time.LocalDate
-import kotlin.math.abs
 
 const val INITIAL_TIME_SECONDS = 60
 const val MAX_TIME_SECONDS = 8 * 60 * 60
