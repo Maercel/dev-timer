@@ -55,12 +55,10 @@ DevTimer started as a university assignment. After the course has ended, I kept 
 
 📦 Build a Windows installer with `./gradlew :composeApp:packageMsi` (JDK 17+).
 
-<br>
-
 ## 🌐 Supported Languages
 
 <details>
-<summary>Suported languages and ignored folders</summary>
+<summary><b>Suported languages and ignored folders</b></summary>
 
 Kotlin, Java, Scala, Groovy, JavaScript, TypeScript, Vue, Svelte, C, C++, C#, Objective-C, Go, Rust, Swift, Dart, PHP, Python, Ruby, Shell, PowerShell, R, Lua, SQL, HTML, CSS, SCSS
 
