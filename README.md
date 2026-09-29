@@ -2,9 +2,9 @@
   <img src="docs/screenshots/dev-timer-logo.svg" alt="DevTimer" width="50%">
 </p>
 
-<p align="center">
+<h3 align="center">
   A developer focus timer that tracks lines of code being added and removed during a session.
-</p>
+</h3>
 
 <p align="center">
   <img alt="Kotlin" src="https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white">
