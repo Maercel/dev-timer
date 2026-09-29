@@ -12,6 +12,8 @@
     <b>DevTimer</b> is a <b>developer focused</b> timer that <b>tracks lines</b> of code being <b>added/removed</b> during a <b>session</b>.
 </p>
 
+<br>
+
 <div align="center">
   <img src="docs/screenshots/dev-timer-timer.png" alt="Timer" width="30%">
   <img src="docs/screenshots/dev-timer-statistics.png" alt="Statistics" width="30%">
