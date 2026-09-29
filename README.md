@@ -15,8 +15,8 @@
 <br>
 
 <div align="center">
-  <img src="docs/screenshots/dev-timer-timer.png" alt="Timer" width="25%">
-  <img src="docs/screenshots/dev-timer-statistics.png" alt="Statistics" width="25%">
+  <img src="docs/screenshots/dev-timer-timer.png" alt="Timer" width="30%">
+  <img src="docs/screenshots/dev-timer-statistics.png" alt="Statistics" width="30%">
 </div>
 
 ---
