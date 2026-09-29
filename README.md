@@ -1,11 +1,5 @@
 <p align="center">
-  <img src="docs/screenshots/dev-timer-logo.svg" alt="DevTimer" width="50%">
-</p>
-
-<br>
-
-<p align="center">
-  A developer focus timer that tracks lines of code being added/removed during a session.
+  <img src="docs/screenshots/dev-timer-logo.svg" alt="DevTimer" width="25%">
 </p>
 
 <p align="center">
@@ -24,7 +18,9 @@
 ---
 
 ## 📖 About
-DevTimer started as a university assignment. After the course has ended, I kept building on it:
+**DevTimer** is a **developer focused** timer that **tracks lines** of code being **added/removed** during a **session**.
+
+Started as a university assignment. After the course has ended, I kept building on it:
 - 🔄 Redesigned the UI and added some new features.
 - 📦 This repository is a fresh copy, since the original course repository will be removed.
 
