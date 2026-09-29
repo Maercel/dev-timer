@@ -8,7 +8,9 @@
   <img alt="SQLite" src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white">
 </p>
 
-<br>
+<p align="center">
+    <b>DevTimer</b> is a <b>developer focused</b> timer that <b>tracks lines</b> of code being <b>added/removed</b> during a <b>session</b>.
+</p>
 
 <div align="center">
   <img src="docs/screenshots/dev-timer-timer.png" alt="Timer" width="30%">
