@@ -3,7 +3,7 @@
 </p>
 
 <h3 align="center">
-  A developer focus timer that tracks lines of code being added and removed during a session.
+  A developer focus timer that tracks lines of code being added/removed during a session.
 </h3>
 
 <p align="center">
