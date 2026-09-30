@@ -1,7 +1,9 @@
+<h1 align="center">Dev Timer</h1>
+<!--
 <p align="center">
   <img src="docs/screenshots/dev-timer-logo.svg" alt="DevTimer" width="40%">
 </p>
-
+-->
 <p align="center">
   <img alt="Kotlin" src="https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white">
   <img alt="Compose Multiplatform" src="https://img.shields.io/badge/Compose_Multiplatform-4285F4?style=for-the-badge&logo=jetpackcompose&logoColor=white">
@@ -9,7 +11,7 @@
 </p>
 
 <p align="center">
-    <b>DevTimer</b> is a <b>developer focused</b> timer that <b>tracks lines</b> of code being <b>added/removed</b> during a <b>session</b>.
+  Timer for <b>developers</b>.
 </p>
 
 <br>
